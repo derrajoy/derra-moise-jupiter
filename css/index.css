@@ -1,0 +1,71 @@
+body {
+    background-color: #f5f5dc; /* Beige / Nude */
+    color: rgb(156, 86, 51);
+    font-family: "Playwrite DE Grund", serif; /* Google Font */
+    margin: 0;
+    padding: 0;
+  }
+
+  .name {
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Courier New', monospace; 
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 150px;        
+    height: 150px;       
+    object-fit: cover;   
+    margin: 20px 0;      
+}
+h1, h2, h3 {
+    font-family: "Playwrite DE Grund", serif;
+    font-weight: 300; 
+    color: rgb(138, 78, 9);
+    margin: 10px 0;
+}
+
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 10px 20px;
+}
+section {
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid #d6b85f; 
+    border-radius: 8px; 
+    background-color: #dfb48f;
+}
+
+/* Experience List */
+.experience li {
+    list-style: none; /* Remove default bullets */
+    margin: 10px 0;
+    padding: 10px;
+    background-color: rgb(235, 201, 145); 
+    border-left: 5px solid rgb(202, 160, 64); 
+    font-family: "Playwrite DE Grund", serif;
+    font-weight: 400;
+}
+.connect a {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 15px;
+    text-decoration: none; 
+    color: #c87c3d; 
+    background-color: rgb(227, 172, 99);
+    border-radius: 5px; 
+    font-family: "Playwrite DE Grund", serif;
+    font-weight: 400;
+    transition: background-color 0.3s ease;
+}
+
+.connect a:hover {
+    background-color: rgb(122, 77, 13);
+}
